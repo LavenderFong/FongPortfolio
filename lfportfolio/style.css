@@ -1,0 +1,10 @@
+
+    .menu{   
+        grid-area:menu;
+          margin: auto;
+          padding: 10px;
+    }
+
+    li.a{
+      text-decoration: underline;
+    }

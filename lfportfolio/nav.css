@@ -1,0 +1,41 @@
+@media(min-width:850px){
+nav ul {
+list-style-type: none;
+margin:auto;
+padding:none;
+}
+
+nav>ul li {
+position: relative;
+text-align: center;
+font-weight: none;
+color:black;
+float: left;
+margin:auto;
+}
+
+nav a:hover,nav a:focus{
+    text-decoration: wavy;
+    font-weight: bold;
+}
+
+nav a:active{
+text-decoration: underline;
+}
+                        
+nav ul>li ul {
+    position: relative;
+    top: 100%;
+    display: none;
+     }
+    
+    nav ul ul li {
+    float:none;
+    }
+                            
+    
+    nav>ul>li:hover>ul{
+    display: block;
+    }
+    }
+    
