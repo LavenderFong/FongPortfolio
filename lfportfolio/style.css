@@ -258,8 +258,8 @@
       }
 
       .iframe-place{
-        grid-column: 2;
-        grid-row: 5;
+        grid-column: 360px;
+        grid-row: 215px;
         border: 3px;
         width: fit-content;
         height: fit-content;
